@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [SmokeSuite]">
+  <test parallel="none" name="TestSmoke(failed)">
+    <classes>
+      <class name="com.qa.test.testing">
+        <methods>
+          <include name="tthree"/>
+          <include name="tone"/>
+        </methods>
+      </class> <!-- com.qa.test.testing -->
+    </classes>
+  </test> <!-- TestSmoke(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->
